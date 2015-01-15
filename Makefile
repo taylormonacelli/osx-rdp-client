@@ -3,3 +3,4 @@ t1:
 
 clean:
 	rm -f out*
+	rm -f RDP.pyc

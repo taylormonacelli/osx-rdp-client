@@ -1,5 +1,5 @@
-t:
-	python rdp.py --user Administrator --name 10.0.2.10 --ip 10.0.2.10 --password mySecret
+t1:
+	@python rdp_test.py
 
 clean:
-	rm out*
+	rm -f out*

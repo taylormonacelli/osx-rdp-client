@@ -1,5 +1,5 @@
 t1:
-	@python rdp_test.py
+	@python create_combinations.py
 
 clean:
 	rm -f out*

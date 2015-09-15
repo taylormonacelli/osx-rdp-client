@@ -25,7 +25,7 @@ defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.label -string "$connection
 defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.hostname -string $host_ip
 defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.username -string $username
 defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.fullscreen -string 0
-defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.resolution -string '@Size(1600 900)'
+defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.resolution -string '@Size(1280 720)'
 defaults write $RDCPLIST bookmarks.bookmark.{$myUUID}.password -string "$password"
 
 # sudo chown -R "$loggedInUser:staff" /Users/$loggedInUser/Library/Containers/com.microsoft.rdc.mac
